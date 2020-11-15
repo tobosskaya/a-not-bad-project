@@ -1,0 +1,56 @@
+
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	border-left: 2px solid rgb(236 236 236);
+	border-right: 2px solid rgb(236 236 236);
+}
+.coins{
+	padding-left: 20px;
+	font-weight: bold;
+}
+.nav{
+	list-style-type: none;
+}
+li{
+	display: inline;
+	padding-right: 20px;
+}
+.header{
+	border-bottom: 20px solid rgb(236 236 236);
+	display: flex;
+	justify-content: space-between;
+}
+.body{
+	display: flex;
+}
+.main{
+	width: 75%;
+}
+.aside{
+	padding-top: 50px;
+	width: 25%;
+	border-left: 2px solid rgb(236 236 236);
+}
+.content{
+	padding: 25px 20px;
+	border-bottom: 2px solid rgb(236 236 236);
+	display: flex;
+}
+.title{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 1.3em;
+}
+.description{
+	padding-bottom: 10px;
+}
+.image{
+	padding-right: 20px;
+}
+.more{
+	color: #cccc00;
+}
